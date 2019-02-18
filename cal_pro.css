@@ -1,0 +1,22 @@
+div
+{
+    border: 2px solid black;
+    width:800px;
+    height:350px;
+} 
+
+.divdown
+{
+    border:unset;
+    width:unset;
+    height:unset;
+    float:right;
+    margin-right:70px;
+}
+.textareadiv
+{
+    border:unset;
+
+    height:100px;
+    margin:5px;
+} 

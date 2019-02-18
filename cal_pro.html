@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href = "cal_pro.css" rel = "stylesheet"/>
+        <script type ="text/javascript" src="cal_pro.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    <form method="POST" action="/calculator/cal_pro.php" target="_blank">
+        <div>
+            Result
+            <div class = "textareadiv">
+                    <textarea type="Number" id="resid" name="res" rows = "5" cols = "90">
+                    </textarea>
+            </div> 
+            <div class = "divdown">
+            <input type="text" name="base" placeholder="Base">
+            </div></br>
+
+            Input
+            <div class = "textareadiv">
+                <textarea type="Number" id="inputid" name="num" rows = "5" cols = "90"></textarea>
+            </div>
+            <div class = "divdown">
+            <input type="text" name="base" placeholder="Base">
+            </div></br>
+
+            <button type="reset" name="submit">Clear</button>
+            <button type="button" name="submit" value="submit" onclick="javascript:plusbutton()">+</button>
+            <button type="submit" name="submit" value="submit">-</button>
+            <button type="submit" name="submit" value="submit">/</button>
+            <button type="submit" name="submit" value="submit">*</button>
+            <button type="submit" name="submit" value="submit">n!</button>
+            <button type="submit" name="submit" value="submit"onclick="javascript:equalbutton()">=</button>
+            <br><br>
+
+        </div>
+    </form>
+    </body>
+</html>
