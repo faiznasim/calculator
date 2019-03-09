@@ -440,7 +440,7 @@ class BigNumber
             $store--;
         }
         $this->result = $arr;
-        return $arr;
+        return $this->result;
     }
 
 }
